@@ -1,18 +1,96 @@
 allprojects {
 
+    apply plugin: 'idea'
     apply plugin: 'java'
+    apply plugin: 'checkstyle'
+    apply plugin: 'pmd'
+    apply plugin: 'findbugs'
 
     sourceCompatibility = 1.8
 
     dependencies {
         compile("org.projectlombok:lombok:1.16.20")
     }
-
     repositories {
         jcenter()
     }
 
-    //  Force all test run as 'clean test'
+
+//  Code style plugins configuration
+    checkstyle {
+        toolVersion = '8.8'
+        config = rootProject.resources.text.fromFile('checks/checkstyle.xml')
+        ignoreFailures true
+    }
+
+    pmd {
+        description 'Identifying potential problems mainly dead code, duplicated code, cyclomatic complexity and overcomplicated expressions'
+        group 'verification'
+        ruleSetFiles = files("$project.rootDir/checks/rules-pmd.xml")
+        ignoreFailures true
+    }
+
+    findbugs {
+        ignoreFailures = false
+        toolVersion = "3.0.1"
+        excludeFilter = file("$project.rootDir/checks/rules-findbugs.xml")
+        effort 'max'
+        reportLevel = "high"
+        ignoreFailures true
+    }
+
+//  Code Style reporting type configuration
+    tasks.withType(Checkstyle) {
+        reports {
+            xml.enabled false
+            html.enabled true
+        }
+    }
+
+    tasks.withType(FindBugs) {
+        reports {
+            xml.enabled false
+            html.enabled true
+        }
+    }
+
+    tasks.withType(Pmd) {
+        reports {
+            xml.enabled false
+            html.enabled true
+        }
+    }
+
+    tasks.create("codeStyleChecks") {
+        group 'verification'
+
+        dependsOn << checkstyleMain
+        dependsOn << checkstyleTest
+        dependsOn << findbugsMain
+        dependsOn << findbugsTest
+        dependsOn << pmdMain
+        dependsOn << pmdTest
+    }
+
+    tasks.create("checkstyle") {
+        group 'verification'
+        dependsOn << checkstyleMain
+        dependsOn << checkstyleTest
+    }
+
+    tasks.create("findbugs") {
+        group 'verification'
+        dependsOn << findbugsMain
+        dependsOn << findbugsTest
+    }
+
+    tasks.create("pmd") {
+        group 'verification'
+        dependsOn << pmdMain
+        dependsOn << pmdTest
+    }
+
+//  Force all test run as 'clean test'
     test.dependsOn 'cleanTest'
 }
 
