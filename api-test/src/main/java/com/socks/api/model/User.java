@@ -30,6 +30,6 @@ public class User {
     private String email;
 
     @JsonProperty("username")
-    private String username = UUID.randomUUID().toString();
+    private final String username = UUID.randomUUID().toString();
 
 }

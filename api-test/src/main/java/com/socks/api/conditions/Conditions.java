@@ -2,7 +2,10 @@ package com.socks.api.conditions;
 
 import org.hamcrest.Matcher;
 
-public class Conditions {
+public final class Conditions {
+
+    private Conditions() {
+    }
 
     public static StatusCodeCondition statusCode(int code) {
         return new StatusCodeCondition(code);
