@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.api.tests.users.UsersTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-08-11T13:44:29" hostname="Dmytros-MacBook-Pro-2.local" time="2.233">
+  <properties/>
+  <testcase name="testCanRegisterUser(User, int)[1]" classname="com.api.tests.users.UsersTest" time="1.791"/>
+  <testcase name="testCanRegisterUser(User, int)[2]" classname="com.api.tests.users.UsersTest" time="0.113"/>
+  <testcase name="testCanRegisterUser(User, int)[3]" classname="com.api.tests.users.UsersTest" time="0.111"/>
+  <testcase name="testCanRegisterUser(User, int)[4]" classname="com.api.tests.users.UsersTest" time="0.114"/>
+  <testcase name="testCanRegisterUser(User, int)[5]" classname="com.api.tests.users.UsersTest" time="0.096"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Aug 11, 2018 4:44:29 PM com.socks.api.logger.TestLifecycleLogger beforeAllTests
+INFO: Before all tests 
+ /--------------------------/
+Aug 11, 2018 4:44:29 PM com.socks.api.logger.TestLifecycleLogger beforeEachTest
+INFO: About to execute [1 ==> User='User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=033fbd0b-fb34-463d-942d-efc235b06785)', code=200] 
+ /--------------------------/
+Aug 11, 2018 4:44:29 PM com.api.tests.users.UsersTest testCanRegisterUser
+INFO: Test data have been created : 
+
+User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=033fbd0b-fb34-463d-942d-efc235b06785)
+
+Aug 11, 2018 4:44:29 PM com.socks.api.service.UserService registerUser
+INFO: Registering user
+Aug 11, 2018 4:44:30 PM com.socks.api.conditions.StatusCodeCondition check
+INFO: Checking if response status code is 200
+Aug 11, 2018 4:44:30 PM com.socks.api.conditions.BodyElementCondition check
+INFO: Checking if JsonString id is not null
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TimingExtension afterTestExecution
+INFO: Method [testCanRegisterUser] took 1779 ms. 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterEachTest
+INFO: Finished executing [1 ==> User='User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=033fbd0b-fb34-463d-942d-efc235b06785)', code=200] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger beforeEachTest
+INFO: About to execute [2 ==> User='User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=b32799e8-0ef8-4ccb-9148-e490b96a7b9d)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.api.tests.users.UsersTest testCanRegisterUser
+INFO: Test data have been created : 
+
+User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=b32799e8-0ef8-4ccb-9148-e490b96a7b9d)
+
+Aug 11, 2018 4:44:31 PM com.socks.api.service.UserService registerUser
+INFO: Registering user
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.StatusCodeCondition check
+INFO: Checking if response status code is 200
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.BodyElementCondition check
+INFO: Checking if JsonString id is not null
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TimingExtension afterTestExecution
+INFO: Method [testCanRegisterUser] took 110 ms. 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterEachTest
+INFO: Finished executing [2 ==> User='User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=b32799e8-0ef8-4ccb-9148-e490b96a7b9d)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger beforeEachTest
+INFO: About to execute [3 ==> User='User(firstName=null, lastName=null, password=null, email=test@gmail.com, username=eaba1485-87f6-4a75-b1fa-77d1217d70b4)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.api.tests.users.UsersTest testCanRegisterUser
+INFO: Test data have been created : 
+
+User(firstName=null, lastName=null, password=null, email=test@gmail.com, username=eaba1485-87f6-4a75-b1fa-77d1217d70b4)
+
+Aug 11, 2018 4:44:31 PM com.socks.api.service.UserService registerUser
+INFO: Registering user
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.StatusCodeCondition check
+INFO: Checking if response status code is 200
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.BodyElementCondition check
+INFO: Checking if JsonString id is not null
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TimingExtension afterTestExecution
+INFO: Method [testCanRegisterUser] took 108 ms. 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterEachTest
+INFO: Finished executing [3 ==> User='User(firstName=null, lastName=null, password=null, email=test@gmail.com, username=eaba1485-87f6-4a75-b1fa-77d1217d70b4)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger beforeEachTest
+INFO: About to execute [4 ==> User='User(firstName=userFirstName, lastName=null, password=null, email=test@gmail.com, username=a912532c-f88f-4279-a358-6c6ac3540301)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.api.tests.users.UsersTest testCanRegisterUser
+INFO: Test data have been created : 
+
+User(firstName=userFirstName, lastName=null, password=null, email=test@gmail.com, username=a912532c-f88f-4279-a358-6c6ac3540301)
+
+Aug 11, 2018 4:44:31 PM com.socks.api.service.UserService registerUser
+INFO: Registering user
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.StatusCodeCondition check
+INFO: Checking if response status code is 200
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.BodyElementCondition check
+INFO: Checking if JsonString id is not null
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TimingExtension afterTestExecution
+INFO: Method [testCanRegisterUser] took 108 ms. 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterEachTest
+INFO: Finished executing [4 ==> User='User(firstName=userFirstName, lastName=null, password=null, email=test@gmail.com, username=a912532c-f88f-4279-a358-6c6ac3540301)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger beforeEachTest
+INFO: About to execute [5 ==> User='User(firstName=userFirstName, lastName=userLastName, password=null, email=test@gmail.com, username=2a2c7d98-04d7-43ac-b85f-78283a11c594)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.api.tests.users.UsersTest testCanRegisterUser
+INFO: Test data have been created : 
+
+User(firstName=userFirstName, lastName=userLastName, password=null, email=test@gmail.com, username=2a2c7d98-04d7-43ac-b85f-78283a11c594)
+
+Aug 11, 2018 4:44:31 PM com.socks.api.service.UserService registerUser
+INFO: Registering user
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.StatusCodeCondition check
+INFO: Checking if response status code is 200
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.BodyElementCondition check
+INFO: Checking if JsonString id is not null
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TimingExtension afterTestExecution
+INFO: Method [testCanRegisterUser] took 94 ms. 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterEachTest
+INFO: Finished executing [5 ==> User='User(firstName=userFirstName, lastName=userLastName, password=null, email=test@gmail.com, username=2a2c7d98-04d7-43ac-b85f-78283a11c594)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterAllTests
+INFO: After all tests 
+ /--------------------------/
+]]></system-err>
+</testsuite>

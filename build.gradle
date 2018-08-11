@@ -1,0 +1,21 @@
+allprojects {
+
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+
+    dependencies {
+        compile("org.projectlombok:lombok:1.16.20")
+    }
+
+    repositories {
+        jcenter()
+    }
+
+    //  Force all test run as 'clean test'
+    test.dependsOn 'cleanTest'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.9'
+}

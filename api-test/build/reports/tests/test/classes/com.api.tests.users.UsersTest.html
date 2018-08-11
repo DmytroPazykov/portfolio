@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - UsersTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>UsersTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.api.tests.users.html">com.api.tests.users</a> &gt; UsersTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.225s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">1 ==&gt; User='User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=033fbd0b-fb34-463d-942d-efc235b06785)', code=200</td>
+<td class="success">testCanRegisterUser(User, int)[1]</td>
+<td class="success">1.791s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">2 ==&gt; User='User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=b32799e8-0ef8-4ccb-9148-e490b96a7b9d)', code=500</td>
+<td class="success">testCanRegisterUser(User, int)[2]</td>
+<td class="success">0.113s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">3 ==&gt; User='User(firstName=null, lastName=null, password=null, email=test@gmail.com, username=eaba1485-87f6-4a75-b1fa-77d1217d70b4)', code=500</td>
+<td class="success">testCanRegisterUser(User, int)[3]</td>
+<td class="success">0.111s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">4 ==&gt; User='User(firstName=userFirstName, lastName=null, password=null, email=test@gmail.com, username=a912532c-f88f-4279-a358-6c6ac3540301)', code=500</td>
+<td class="success">testCanRegisterUser(User, int)[4]</td>
+<td class="success">0.114s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">5 ==&gt; User='User(firstName=userFirstName, lastName=userLastName, password=null, email=test@gmail.com, username=2a2c7d98-04d7-43ac-b85f-78283a11c594)', code=500</td>
+<td class="success">testCanRegisterUser(User, int)[5]</td>
+<td class="success">0.096s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Aug 11, 2018 4:44:29 PM com.socks.api.logger.TestLifecycleLogger beforeAllTests
+INFO: Before all tests 
+ /--------------------------/
+Aug 11, 2018 4:44:29 PM com.socks.api.logger.TestLifecycleLogger beforeEachTest
+INFO: About to execute [1 ==&gt; User='User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=033fbd0b-fb34-463d-942d-efc235b06785)', code=200] 
+ /--------------------------/
+Aug 11, 2018 4:44:29 PM com.api.tests.users.UsersTest testCanRegisterUser
+INFO: Test data have been created : 
+
+User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=033fbd0b-fb34-463d-942d-efc235b06785)
+
+Aug 11, 2018 4:44:29 PM com.socks.api.service.UserService registerUser
+INFO: Registering user
+Aug 11, 2018 4:44:30 PM com.socks.api.conditions.StatusCodeCondition check
+INFO: Checking if response status code is 200
+Aug 11, 2018 4:44:30 PM com.socks.api.conditions.BodyElementCondition check
+INFO: Checking if JsonString id is not null
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TimingExtension afterTestExecution
+INFO: Method [testCanRegisterUser] took 1779 ms. 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterEachTest
+INFO: Finished executing [1 ==&gt; User='User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=033fbd0b-fb34-463d-942d-efc235b06785)', code=200] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger beforeEachTest
+INFO: About to execute [2 ==&gt; User='User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=b32799e8-0ef8-4ccb-9148-e490b96a7b9d)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.api.tests.users.UsersTest testCanRegisterUser
+INFO: Test data have been created : 
+
+User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=b32799e8-0ef8-4ccb-9148-e490b96a7b9d)
+
+Aug 11, 2018 4:44:31 PM com.socks.api.service.UserService registerUser
+INFO: Registering user
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.StatusCodeCondition check
+INFO: Checking if response status code is 200
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.BodyElementCondition check
+INFO: Checking if JsonString id is not null
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TimingExtension afterTestExecution
+INFO: Method [testCanRegisterUser] took 110 ms. 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterEachTest
+INFO: Finished executing [2 ==&gt; User='User(firstName=userFirstName, lastName=userLastName, password=12345678, email=test@gmail.com, username=b32799e8-0ef8-4ccb-9148-e490b96a7b9d)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger beforeEachTest
+INFO: About to execute [3 ==&gt; User='User(firstName=null, lastName=null, password=null, email=test@gmail.com, username=eaba1485-87f6-4a75-b1fa-77d1217d70b4)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.api.tests.users.UsersTest testCanRegisterUser
+INFO: Test data have been created : 
+
+User(firstName=null, lastName=null, password=null, email=test@gmail.com, username=eaba1485-87f6-4a75-b1fa-77d1217d70b4)
+
+Aug 11, 2018 4:44:31 PM com.socks.api.service.UserService registerUser
+INFO: Registering user
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.StatusCodeCondition check
+INFO: Checking if response status code is 200
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.BodyElementCondition check
+INFO: Checking if JsonString id is not null
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TimingExtension afterTestExecution
+INFO: Method [testCanRegisterUser] took 108 ms. 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterEachTest
+INFO: Finished executing [3 ==&gt; User='User(firstName=null, lastName=null, password=null, email=test@gmail.com, username=eaba1485-87f6-4a75-b1fa-77d1217d70b4)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger beforeEachTest
+INFO: About to execute [4 ==&gt; User='User(firstName=userFirstName, lastName=null, password=null, email=test@gmail.com, username=a912532c-f88f-4279-a358-6c6ac3540301)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.api.tests.users.UsersTest testCanRegisterUser
+INFO: Test data have been created : 
+
+User(firstName=userFirstName, lastName=null, password=null, email=test@gmail.com, username=a912532c-f88f-4279-a358-6c6ac3540301)
+
+Aug 11, 2018 4:44:31 PM com.socks.api.service.UserService registerUser
+INFO: Registering user
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.StatusCodeCondition check
+INFO: Checking if response status code is 200
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.BodyElementCondition check
+INFO: Checking if JsonString id is not null
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TimingExtension afterTestExecution
+INFO: Method [testCanRegisterUser] took 108 ms. 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterEachTest
+INFO: Finished executing [4 ==&gt; User='User(firstName=userFirstName, lastName=null, password=null, email=test@gmail.com, username=a912532c-f88f-4279-a358-6c6ac3540301)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger beforeEachTest
+INFO: About to execute [5 ==&gt; User='User(firstName=userFirstName, lastName=userLastName, password=null, email=test@gmail.com, username=2a2c7d98-04d7-43ac-b85f-78283a11c594)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.api.tests.users.UsersTest testCanRegisterUser
+INFO: Test data have been created : 
+
+User(firstName=userFirstName, lastName=userLastName, password=null, email=test@gmail.com, username=2a2c7d98-04d7-43ac-b85f-78283a11c594)
+
+Aug 11, 2018 4:44:31 PM com.socks.api.service.UserService registerUser
+INFO: Registering user
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.StatusCodeCondition check
+INFO: Checking if response status code is 200
+Aug 11, 2018 4:44:31 PM com.socks.api.conditions.BodyElementCondition check
+INFO: Checking if JsonString id is not null
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TimingExtension afterTestExecution
+INFO: Method [testCanRegisterUser] took 94 ms. 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterEachTest
+INFO: Finished executing [5 ==&gt; User='User(firstName=userFirstName, lastName=userLastName, password=null, email=test@gmail.com, username=2a2c7d98-04d7-43ac-b85f-78283a11c594)', code=500] 
+ /--------------------------/
+Aug 11, 2018 4:44:31 PM com.socks.api.logger.TestLifecycleLogger afterAllTests
+INFO: After all tests 
+ /--------------------------/
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.8</a> at Aug 11, 2018 4:44:31 PM</p>
+</div>
+</div>
+</body>
+</html>
