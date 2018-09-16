@@ -1,4 +1,4 @@
-package com.socks.api.model;
+package com.socks.model;
 
 import java.util.UUID;
 

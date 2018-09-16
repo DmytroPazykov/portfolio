@@ -1,9 +1,5 @@
 package com.socks.pages;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.NoSuchElementException;
-
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
@@ -12,7 +8,6 @@ import com.socks.model.User;
 import base.BasePage;
 
 import static com.codeborne.selenide.Selenide.$;
-import static org.awaitility.Awaitility.await;
 
 public class MainPage extends BasePage {
 
@@ -41,19 +36,13 @@ public class MainPage extends BasePage {
     }
 
     public MainPage shouldBeLoggedAs(User user) {
-        await()
-            .ignoreException(NoSuchElementException.class)
-            .atMost(10, TimeUnit.SECONDS)
-            .pollInterval(2, TimeUnit.SECONDS)
-            .untilAsserted(() ->
-                loggedUserLabel
-                    .shouldBe(Condition.visible)
-                    .shouldHave(
-                        Condition.exactText(
-                            String.format("Logged in as %s %s",
-                                user.getFirstName(),
-                                user.getLastName())))
-            );
+        loggedUserLabel
+            .waitUntil(Condition.visible, 10000)
+            .shouldHave(
+                Condition.exactText(
+                    String.format("Logged in as %s %s",
+                        user.getFirstName(),
+                        user.getLastName())));
         return this;
     }
 }

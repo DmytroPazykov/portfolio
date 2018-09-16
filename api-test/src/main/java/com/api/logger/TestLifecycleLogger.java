@@ -1,4 +1,4 @@
-package com.fraud.api.logger;
+package com.api.logger;
 
 import java.util.logging.Logger;
 

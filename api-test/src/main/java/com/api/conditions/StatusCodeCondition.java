@@ -1,10 +1,11 @@
-package com.fraud.api.conditions;
+package com.api.conditions;
+
+import com.api.logger.TestLifecycleLogger;
 
 import io.restassured.response.Response;
 import lombok.AllArgsConstructor;
 import lombok.ToString;
 
-import static com.fraud.api.logger.TestLifecycleLogger.LOG;
 import static java.lang.String.format;
 
 @ToString
@@ -16,7 +17,7 @@ public class StatusCodeCondition implements Condition {
     @Override
     public void check(Response response) {
 
-        LOG.info(
+        TestLifecycleLogger.LOG.info(
             format("Checking if response status code is %s",
                 String.valueOf(statusCode)));
 

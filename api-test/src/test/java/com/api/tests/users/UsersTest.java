@@ -9,13 +9,13 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import com.socks.api.logger.TestLifecycleLogger;
-import com.socks.api.logger.TimingExtension;
-import com.socks.api.model.User;
-import com.socks.api.service.UserService;
+import com.api.logger.TestLifecycleLogger;
+import com.api.logger.TimingExtension;
+import com.socks.model.User;
+import com.socks.service.UserService;
 
-import static com.socks.api.conditions.Conditions.bodyField;
-import static com.socks.api.conditions.Conditions.statusCode;
+import static com.api.conditions.Conditions.bodyField;
+import static com.api.conditions.Conditions.statusCode;
 import static org.hamcrest.Matchers.notNullValue;
 
 @ExtendWith(TimingExtension.class)

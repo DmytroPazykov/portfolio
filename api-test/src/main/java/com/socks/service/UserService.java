@@ -1,7 +1,7 @@
-package com.socks.api.service;
+package com.socks.service;
 
-import com.socks.api.AssertableResponse;
-import com.socks.api.model.User;
+import com.api.AssertableResponse;
+import com.socks.model.User;
 
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -10,7 +10,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-import static com.socks.api.logger.TestLifecycleLogger.LOG;
+import static com.api.logger.TestLifecycleLogger.LOG;
 
 public class UserService {
 

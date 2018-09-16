@@ -1,6 +1,6 @@
-package com.fraud.api;
+package com.api;
 
-import com.fraud.api.conditions.Condition;
+import com.api.conditions.Condition;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
