@@ -1,5 +1,6 @@
 package com.socks.test;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import com.socks.model.User;
@@ -11,6 +12,7 @@ import base.BaseTest;
 public class UserRegistrationTest extends BaseTest {
 
     @Test
+    @Tag("ui")
     void registerUserTest() {
         User user = UserFactory.getDefaultUser();
 

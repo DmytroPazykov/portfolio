@@ -38,7 +38,7 @@ test {
     }
 
     useJUnitPlatform {
-        includeTags 'provider'
+        includeTags 'ui'
         includeEngines 'junit-jupiter'
     }
 

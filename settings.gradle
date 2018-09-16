@@ -1,5 +1,3 @@
 rootProject.name = 'test'
 include 'api-test'
 include 'ui-test'
-findProject(':ui-test')?.name = 'ui'
-
