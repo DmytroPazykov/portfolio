@@ -1,31 +1,29 @@
 ext {
     commonApache = "3.7"
-    restAssuredVersion = "3.1.0"
     junitVersion = "5.1.0"
     junitPlatform = "1.2.0"
-    jacksonDatabindVersion = "2.9.5"
-    allureRestAssured = "2.6.0"
     log4j = "2.11.1"
     logback = "1.2.3"
+    selenide = "4.14.1"
+    await = "3.1.2"
 }
 
 dependencies {
-    compile("com.fasterxml.jackson.core:jackson-databind:$jacksonDatabindVersion",
-            "org.apache.logging.log4j:log4j-core:$log4j",
+    compile("org.apache.logging.log4j:log4j-core:$log4j",
             "org.apache.logging.log4j:log4j-api:$log4j",
             "org.apache.commons:commons-lang3:$commonApache",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion",
             "org.junit.platform:junit-platform-launcher:$junitPlatform",
             "org.junit.jupiter:junit-jupiter-engine:$junitVersion",
             "org.junit.jupiter:junit-jupiter-params:$junitVersion",
-            "com.fasterxml.jackson.core:jackson-databind:$jacksonDatabindVersion",
             "ch.qos.logback:logback-classic:$logback",
             "ch.qos.logback:logback-core:$logback",
-            "io.qameta.allure:allure-rest-assured:$allureRestAssured")
+            "com.codeborne:selenide:$selenide",
+            "org.awaitility:awaitility:$await"
 
-    compile("io.rest-assured:rest-assured:$restAssuredVersion") {
-        exclude group: 'org.apache.commons'
-    }
+    )
+
+    compile project(':api-test')
 }
 
 repositories {
@@ -40,7 +38,6 @@ test {
     }
 
     useJUnitPlatform {
-//        includeTags 'simple', 'requests', 'provider'
         includeTags 'provider'
         includeEngines 'junit-jupiter'
     }
@@ -57,6 +54,7 @@ test {
         html.enabled = true
     }
 
+    test.outputs.upToDateWhen { false}
 }
 
 allure {

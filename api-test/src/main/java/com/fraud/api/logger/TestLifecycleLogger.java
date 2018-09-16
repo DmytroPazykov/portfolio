@@ -1,4 +1,4 @@
-package com.socks.api.logger;
+package com.fraud.api.logger;
 
 import java.util.logging.Logger;
 

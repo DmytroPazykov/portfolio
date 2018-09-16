@@ -1,11 +1,13 @@
-package com.socks.api.conditions;
+package com.fraud.api.conditions;
 
 import io.restassured.response.Response;
 import lombok.AllArgsConstructor;
+import lombok.ToString;
 
-import static com.socks.api.logger.TestLifecycleLogger.LOG;
+import static com.fraud.api.logger.TestLifecycleLogger.LOG;
 import static java.lang.String.format;
 
+@ToString
 @AllArgsConstructor
 public class StatusCodeCondition implements Condition {
 

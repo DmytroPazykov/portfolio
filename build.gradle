@@ -1,26 +1,42 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.5"
+        classpath "io.franzbecker:gradle-lombok:1.14"
+    }
+}
+
 allprojects {
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
 
     apply plugin: 'idea'
     apply plugin: 'java'
     apply plugin: 'checkstyle'
     apply plugin: 'pmd'
     apply plugin: 'findbugs'
+    apply plugin: 'io.franzbecker.gradle-lombok'
+    apply plugin: 'io.qameta.allure'
 
     sourceCompatibility = 1.8
 
     dependencies {
-        compile("org.projectlombok:lombok:1.16.20")
+        compile("org.slf4j:slf4j-api:1.7.25")
     }
-    repositories {
-        jcenter()
-    }
-
 
 //  Code style plugins configuration
     checkstyle {
         toolVersion = '8.8'
         config = rootProject.resources.text.fromFile('checks/checkstyle.xml')
-        ignoreFailures true
+        ignoreFailures false
     }
 
     pmd {
@@ -45,6 +61,7 @@ allprojects {
             xml.enabled false
             html.enabled true
         }
+        exclude '**/AccessToken.java'
     }
 
     tasks.withType(FindBugs) {
@@ -91,7 +108,7 @@ allprojects {
     }
 
 //  Force all test run as 'clean test'
-    test.dependsOn 'cleanTest'
+//    test.dependsOn 'cleanTest'
 }
 
 task wrapper(type: Wrapper) {

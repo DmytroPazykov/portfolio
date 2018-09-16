@@ -1,6 +1,9 @@
-package com.socks.api.conditions;
+package com.fraud.api.conditions;
 
 import org.hamcrest.Matcher;
+
+import com.fraud.api.conditions.BodyElementCondition;
+import com.fraud.api.conditions.StatusCodeCondition;
 
 public final class Conditions {
 
