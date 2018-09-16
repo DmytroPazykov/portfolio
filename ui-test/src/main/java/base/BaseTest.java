@@ -10,6 +10,7 @@ public class BaseTest {
     static void setup() {
         Configuration.browser = "chrome";
         Configuration.baseUrl = "http://35.231.186.189";
+        Configuration.headless = true;
     }
 
     protected <T> T at(Class<T> tClass){
