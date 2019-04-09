@@ -7,7 +7,6 @@ buildscript {
     }
     dependencies {
         classpath "io.qameta.allure:allure-gradle:2.5"
-        classpath "io.franzbecker:gradle-lombok:1.14"
     }
 }
 
@@ -23,13 +22,14 @@ allprojects {
     apply plugin: 'checkstyle'
     apply plugin: 'pmd'
     apply plugin: 'findbugs'
-    apply plugin: 'io.franzbecker.gradle-lombok'
     apply plugin: 'io.qameta.allure'
 
     sourceCompatibility = 1.8
 
     dependencies {
         compile("org.slf4j:slf4j-api:1.7.25")
+        compileOnly 'org.projectlombok:lombok:1.18.6'
+        annotationProcessor 'org.projectlombok:lombok:1.18.6'
     }
 
 //  Code style plugins configuration
@@ -61,7 +61,6 @@ allprojects {
             xml.enabled false
             html.enabled true
         }
-        exclude '**/AccessToken.java'
     }
 
     tasks.withType(FindBugs) {
@@ -109,8 +108,4 @@ allprojects {
 
 //  Force all test run as 'clean test'
 //    test.dependsOn 'cleanTest'
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.9'
 }

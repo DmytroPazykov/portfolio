@@ -1,3 +1,7 @@
+repositories {
+    jcenter()
+    mavenCentral()
+}
 ext {
     commonApache = "3.7"
     restAssuredVersion = "3.1.0"
@@ -14,10 +18,12 @@ dependencies {
             "org.apache.logging.log4j:log4j-core:$log4j",
             "org.apache.logging.log4j:log4j-api:$log4j",
             "org.apache.commons:commons-lang3:$commonApache",
+
             "org.junit.jupiter:junit-jupiter-api:$junitVersion",
             "org.junit.platform:junit-platform-launcher:$junitPlatform",
             "org.junit.jupiter:junit-jupiter-engine:$junitVersion",
             "org.junit.jupiter:junit-jupiter-params:$junitVersion",
+
             "com.fasterxml.jackson.core:jackson-databind:$jacksonDatabindVersion",
             "ch.qos.logback:logback-classic:$logback",
             "ch.qos.logback:logback-core:$logback",
@@ -28,10 +34,6 @@ dependencies {
     }
 }
 
-repositories {
-    jcenter()
-    mavenCentral()
-}
 
 test {
 

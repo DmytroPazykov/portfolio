@@ -1,10 +1,9 @@
 ext {
     commonApache = "3.7"
-    junitVersion = "5.1.0"
-    junitPlatform = "1.2.0"
+    junitVersion = "5.4.2"
     log4j = "2.11.1"
     logback = "1.2.3"
-    selenide = "4.14.1"
+    selenide = "5.2.2"
     await = "3.1.2"
 }
 
@@ -12,15 +11,11 @@ dependencies {
     compile("org.apache.logging.log4j:log4j-core:$log4j",
             "org.apache.logging.log4j:log4j-api:$log4j",
             "org.apache.commons:commons-lang3:$commonApache",
-            "org.junit.jupiter:junit-jupiter-api:$junitVersion",
-            "org.junit.platform:junit-platform-launcher:$junitPlatform",
-            "org.junit.jupiter:junit-jupiter-engine:$junitVersion",
-            "org.junit.jupiter:junit-jupiter-params:$junitVersion",
+            "org.junit.jupiter:junit-jupiter:$junitVersion",
             "ch.qos.logback:logback-classic:$logback",
             "ch.qos.logback:logback-core:$logback",
             "com.codeborne:selenide:$selenide",
             "org.awaitility:awaitility:$await"
-
     )
 
     compile project(':api-test')
@@ -39,10 +34,7 @@ test {
 
     useJUnitPlatform {
         includeTags 'ui'
-        includeEngines 'junit-jupiter'
     }
-
-//    maxParallelForks = 4
 
     testLogging {
         showStandardStreams = true
@@ -54,15 +46,24 @@ test {
         html.enabled = true
     }
 
+    systemProperties['junit.jupiter.execution.parallel.enabled'] = true
+    systemProperties['junit.jupiter.execution.parallel.config.strategy'] = "dynamic"
+    systemProperties['junit.jupiter.execution.parallel.config.fixed.parallelism'] = 2
+
+    forkEvery = 1
+    
     test.outputs.upToDateWhen { false}
 }
 
 allure {
-    version = '2.5.0'
+    autoconfigure = true
+    
+    version = '2.7.0'
     aspectjweaver = true
     configuration = 'compile'
 
     useJUnit5 {
-        version = '2.0-BETA22'
+        version = '2.7.0'
     }
+
 }
