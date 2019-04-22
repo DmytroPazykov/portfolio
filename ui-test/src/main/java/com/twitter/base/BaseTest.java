@@ -4,8 +4,10 @@ import com.api.logger.TestLifecycleLogger;
 import com.api.logger.TimingExtension;
 import com.codeborne.selenide.Browsers;
 import lombok.NonNull;
+import org.aspectj.lang.annotation.Before;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
@@ -27,9 +29,10 @@ import static com.codeborne.selenide.WebDriverRunner.setWebDriver;
 @ExtendWith(TimingExtension.class)
 public class BaseTest implements TestLifecycleLogger {
 
-    @BeforeAll
-    static void setup() throws MalformedURLException {
+    @BeforeEach
+    void setup() throws MalformedURLException {
         String runType = System.getProperty("runType", "local");
+        System.out.println("runType is - " + runType);
 
         Configuration.baseUrl = "https://twitter.com/?lang=en";
         Configuration.startMaximized = false;
@@ -50,7 +53,7 @@ public class BaseTest implements TestLifecycleLogger {
             case ("chrome_69"):
                 remoteBrowserSetup(Browsers.CHROME, "69.0");
                 break;
-            case ("firefox_69"):
+            case ("firefox_66"):
                 remoteBrowserSetup(Browsers.FIREFOX, "66.0");
                 break;
             case ("android_8.1"):
@@ -61,7 +64,7 @@ public class BaseTest implements TestLifecycleLogger {
 
     }
 
-    private static void remoteBrowserSetup(@NonNull String browserName, @NonNull String version) throws MalformedURLException {
+    private void remoteBrowserSetup(@NonNull String browserName, @NonNull String version) throws MalformedURLException {
         Configuration.browser = browserName;
         DesiredCapabilities browser = new DesiredCapabilities();
         browser.setBrowserName(browserName);
@@ -73,7 +76,7 @@ public class BaseTest implements TestLifecycleLogger {
         driver.manage().window().setSize(new Dimension(1920, 1080));
     }
 
-    private static void remoteBrowserSetup(@NonNull String browserName, @NonNull String version, @NonNull String skin, @NonNull String resolution) throws MalformedURLException {
+    private void remoteBrowserSetup(@NonNull String browserName, @NonNull String version, @NonNull String skin, @NonNull String resolution) throws MalformedURLException {
         Configuration.browser = browserName;
         DesiredCapabilities device = new DesiredCapabilities();
         device.setCapability("browserName",browserName);
