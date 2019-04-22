@@ -6,9 +6,11 @@ import com.twitter.model.User;
 
 import com.twitter.base.BasePage;
 import io.qameta.allure.Step;
+import lombok.extern.slf4j.Slf4j;
 
 import static com.codeborne.selenide.Selenide.$;
 
+@Slf4j
 public class LoginBlock extends BasePage {
 
     private SelenideElement userName = $(".LoginForm-username .email-input");
@@ -26,8 +28,9 @@ public class LoginBlock extends BasePage {
 
     @Step
     public LoginBlock loginErrorDisplayed(String errorMessage){
+        log.debug("Error message should be visible - " + errorMessage);
         loginError
-            .shouldBe(Condition.visible)
+            .shouldBe(Condition.appears)
             .shouldHave(Condition.exactText(errorMessage));
 
         return this;

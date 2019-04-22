@@ -8,11 +8,7 @@
         </encoder>
     </appender>
 
-    <logger name="com.fraud.api.*" level="INFO" additivity="false">
-        <appender-ref ref="STDOUT"/>
-    </logger>
-
-    <root level="INFO">
+    <root level="DEBUG">
         <appender-ref ref="STDOUT"/>
     </root>
 

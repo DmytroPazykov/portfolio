@@ -1,83 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/api-test/src/test/java/com/api/tests/users/UsersTest.java" line="38" mnemonic="6" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="b7873b16-bafd-4f4d-9717-ed2c83a79912" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/LoginBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/TwitterLandingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/TwitterLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/service/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-test/src/test/java/com/twitter/test/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenoid/browsers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenoid/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/classes/java/main/com/socks/api/AssertableResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/classes/java/main/com/socks/api/conditions/BodyElementCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/classes/java/main/com/socks/api/conditions/Condition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/classes/java/main/com/socks/api/conditions/Conditions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/classes/java/main/com/socks/api/conditions/StatusCodeCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/classes/java/main/com/socks/api/logger/TestLifecycleLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/classes/java/main/com/socks/api/logger/TimingExtension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/classes/java/main/com/socks/api/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/classes/java/main/com/socks/api/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/classes/java/test/com/api/tests/users/UsersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/build/classes/java/test/com/api/tests/users/UsersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/reports/tests/test/classes/com.api.tests.users.UsersTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/build/reports/tests/test/classes/com.api.tests.users.UsersTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/reports/tests/test/packages/com.api.tests.users.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/build/reports/tests/test/packages/com.api.tests.users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/test-results/test/TEST-com.api.tests.users.UsersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/build/test-results/test/TEST-com.api.tests.users.UsersTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/AssertableResponse 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/AssertableResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/conditions/BodyElementCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/conditions/Condition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/conditions/Conditions 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/conditions/Conditions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/conditions/StatusCodeCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/logger/TestLifecycleLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/logger/TimingExtension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/model/User 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/production/classes/com/socks/api/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/test/classes/com/api/tests/users/UsersTest 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/out/test/classes/com/api/tests/users/UsersTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/test.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-test/src/main/java/com/socks/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-test/src/main/java/com/socks/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-test/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-test/src/test/java/com/api/tests/users/UsersTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ui-test/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-test/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-test/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-test/src/main/java/com/socks/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-test/src/main/java/com/socks/pages/LoginModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-test/src/main/java/com/socks/pages/MainPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-test/src/main/java/com/socks/pages/RegistrationModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-test/src/main/java/com/socks/service/UserFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-test/src/test/java/com/socks/test/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-test/src/test/java/com/socks/test/UserRegistrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/LoginBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/LoginBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-test/src/test/java/com/twitter/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-test/src/test/java/com/twitter/test/LoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -102,6 +43,9 @@
         <entry key="last-active-plugin-version" value="5.18.5" />
       </map>
     </option>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -130,20 +74,34 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="test" type="f1a62948:ProjectNode" />
-                <item name=":ui-test" type="2d1252cf:ModuleNode" />
+                <item name="ui-test" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="test" type="f1a62948:ProjectNode" />
-                <item name=":ui-test" type="2d1252cf:ModuleNode" />
+                <item name="ui-test" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="test" type="f1a62948:ProjectNode" />
-                <item name=":ui-test" type="2d1252cf:ModuleNode" />
+                <item name="ui-test" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+                <item name="ui-test" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+                <item name="ui-test" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -157,26 +115,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui-test/src/test/java/com/twitter/test/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            <state relative-caret-position="46">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="243">
+              <caret line="83" column="55" lean-forward="true" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenoid/browsers.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenoid/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-test/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/api/AssertableResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ui-test/build.gradle">
+        <entry file="file://$PROJECT_DIR$/api-test/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="268">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -198,6 +204,7 @@
       <find>commonApache</find>
       <find>Selenide</find>
       <find>#login &gt; a</find>
+      <find>The</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -234,14 +241,20 @@
         <option value="$PROJECT_DIR$/ui-test/src/main/java/com/socks/pages/TwitterLoginPage.java" />
         <option value="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/TwitterLoginPage.java" />
         <option value="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/TwitterLandingPage.java" />
-        <option value="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/LoginBlock.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/ui-test/junit-platform.properties" />
-        <option value="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/ui-test/src/test/resources/junit-platform.properties" />
         <option value="$PROJECT_DIR$/ui-test/src/test/java/com/socks/test/LoginTest.java" />
-        <option value="$PROJECT_DIR$/ui-test/src/test/java/com/twitter/test/LoginTest.java" />
+        <option value="$PROJECT_DIR$/config/browser.json" />
         <option value="$PROJECT_DIR$/ui-test/build.gradle" />
+        <option value="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/LoginBlock.java" />
+        <option value="$PROJECT_DIR$/config/browsers.json" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/selenoid/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/ui-test/src/test/java/com/twitter/test/LoginTest.java" />
+        <option value="$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BaseTest.java" />
+        <option value="$PROJECT_DIR$/selenoid/browsers.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/api-test/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -258,11 +271,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1896" />
-    <option name="y" value="-19" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,45 +287,119 @@
           <expand>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="api-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="api-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="api-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="api-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="api-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="api-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="api-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="checks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="selenoid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="ui-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="ui-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="ui-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="ui-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -321,7 +407,7 @@
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="ui-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -332,15 +418,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="plugi&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -350,6 +440,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/selenoid" />
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\dmytro_pazykov\Documents\git\portfolio\ui-test\src\test\resources" />
       <recent name="$PROJECT_DIR$/api-test" />
     </key>
@@ -366,7 +459,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.portfolio:ui-test [allureServe]">
+  <component name="RunManager" selected="JUnit.LoginTest.calculatorTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -379,26 +472,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="portfolio [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="portfolio:ui-test [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="portfolio:ui-test [chromeHeadless]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ui-test" />
@@ -409,7 +483,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureReport" />
+            <option value="chromeHeadless" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -417,7 +491,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="portfolio:ui-test [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="portfolio:ui-test [chrome]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ui-test" />
@@ -428,7 +502,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureServe" />
+            <option value="chrome" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -436,44 +510,60 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="portfolio:ui-test [clean test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ui-test" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="LoginTest.calculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ui-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitter.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twitter.test" />
+      <option name="MAIN_CLASS_NAME" value="com.twitter.test.LoginTest" />
+      <option name="METHOD_NAME" value="calculatorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-DrunType=android_8.1" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="portfolio:ui-test [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ui-test" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="LoginTest.userCanLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ui-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitter.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twitter.test" />
+      <option name="MAIN_CLASS_NAME" value="com.twitter.test.LoginTest" />
+      <option name="METHOD_NAME" value="userCanLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.userCanNotLoginWithIncorrectData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ui-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitter.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twitter.test" />
+      <option name="MAIN_CLASS_NAME" value="com.twitter.test.LoginTest" />
+      <option name="METHOD_NAME" value="userCanNotLoginWithIncorrectData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-DrunType=android_8.0" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -483,6 +573,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -491,19 +582,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.portfolio:ui-test [test]" />
-      <item itemvalue="Gradle.portfolio:ui-test [clean test]" />
-      <item itemvalue="Gradle.portfolio:ui-test [allureReport]" />
-      <item itemvalue="Gradle.portfolio:ui-test [allureServe]" />
-      <item itemvalue="Gradle.portfolio [clean]" />
+      <item itemvalue="Gradle.portfolio:ui-test [chrome]" />
+      <item itemvalue="Gradle.portfolio:ui-test [chromeHeadless]" />
+      <item itemvalue="JUnit.LoginTest.userCanNotLoginWithIncorrectData" />
+      <item itemvalue="JUnit.LoginTest.userCanLogin" />
+      <item itemvalue="JUnit.LoginTest.calculatorTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.portfolio:ui-test [clean test]" />
-        <item itemvalue="Gradle.portfolio [clean]" />
-        <item itemvalue="Gradle.portfolio:ui-test [allureServe]" />
-        <item itemvalue="Gradle.portfolio:ui-test [allureReport]" />
-        <item itemvalue="Gradle.portfolio:ui-test [test]" />
+        <item itemvalue="JUnit.LoginTest.calculatorTest" />
+        <item itemvalue="JUnit.LoginTest.userCanNotLoginWithIncorrectData" />
+        <item itemvalue="JUnit.LoginTest.userCanLogin" />
+        <item itemvalue="Gradle.portfolio:ui-test [chromeHeadless]" />
+        <item itemvalue="Gradle.portfolio:ui-test [chrome]" />
       </list>
     </recent_temporary>
   </component>
@@ -520,43 +611,51 @@
       <workItem from="1554717355307" duration="8863000" />
       <workItem from="1554731258072" duration="2578000" />
       <workItem from="1554735090863" duration="8000" />
+      <workItem from="1554818881925" duration="703000" />
+      <workItem from="1554819612966" duration="123000" />
+      <workItem from="1554819804656" duration="90000" />
+      <workItem from="1554819907591" duration="1536000" />
+      <workItem from="1554922327837" duration="11000" />
+      <workItem from="1555061180435" duration="1020000" />
+      <workItem from="1555319128631" duration="7267000" />
+      <workItem from="1555579278485" duration="8026000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="portfolio_ui-test_[test] - 2019.04.08 at 16h 05m 48s.xml">
-      <configuration name="portfolio:ui-test [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginTest_userCanNotLoginWithIncorrectData - 2019.04.18 at 13h 28m 14s.xml">
+      <configuration name="LoginTest.userCanNotLoginWithIncorrectData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="portfolio_ui-test_[test] - 2019.04.08 at 16h 06m 32s.xml">
-      <configuration name="portfolio:ui-test [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginTest_userCanNotLoginWithIncorrectData - 2019.04.18 at 13h 30m 18s.xml">
+      <configuration name="LoginTest.userCanNotLoginWithIncorrectData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="portfolio_ui-test_[test] - 2019.04.08 at 16h 10m 26s.xml">
-      <configuration name="portfolio:ui-test [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginTest_userCanNotLoginWithIncorrectData - 2019.04.18 at 13h 31m 44s.xml">
+      <configuration name="LoginTest.userCanNotLoginWithIncorrectData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="portfolio_ui-test_[test] - 2019.04.08 at 16h 10m 57s.xml">
-      <configuration name="portfolio:ui-test [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginTest_calculatorTest - 2019.04.18 at 14h 42m 51s.xml">
+      <configuration name="LoginTest.calculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="portfolio_ui-test_[test] - 2019.04.08 at 16h 11m 33s.xml">
-      <configuration name="portfolio:ui-test [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginTest_calculatorTest - 2019.04.18 at 14h 44m 01s.xml">
+      <configuration name="LoginTest.calculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="portfolio_ui-test_[clean_test] - 2019.04.08 at 16h 13m 30s.xml">
-      <configuration name="portfolio:ui-test [clean test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginTest_calculatorTest - 2019.04.18 at 15h 24m 37s.xml">
+      <configuration name="LoginTest.calculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="portfolio_ui-test_[clean_test] - 2019.04.08 at 16h 15m 17s.xml">
-      <configuration name="portfolio:ui-test [clean test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginTest_calculatorTest - 2019.04.18 at 15h 25m 14s.xml">
+      <configuration name="LoginTest.calculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="portfolio_ui-test_[clean_test] - 2019.04.08 at 16h 18m 12s.xml">
-      <configuration name="portfolio:ui-test [clean test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginTest_calculatorTest - 2019.04.18 at 15h 27m 01s.xml">
+      <configuration name="LoginTest.calculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="portfolio_ui-test_[clean_test] - 2019.04.08 at 16h 50m 27s.xml">
-      <configuration name="portfolio:ui-test [clean test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginTest_calculatorTest - 2019.04.18 at 15h 30m 18s.xml">
+      <configuration name="LoginTest.calculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="portfolio_ui-test_[clean_test] - 2019.04.08 at 16h 52m 28s.xml">
-      <configuration name="portfolio:ui-test [clean test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="LoginTest_calculatorTest - 2019.04.18 at 15h 50m 53s.xml">
+      <configuration name="LoginTest.calculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28507000" />
+    <option name="totallyTimeSpent" value="47283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -568,32 +667,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25030527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47128928" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5520468" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32934132" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28494042" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28421053" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.35969663" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32865497" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.35906434" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Gradle" order="3" visible="true" weight="0.28464818" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.2844933" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
@@ -623,26 +721,11 @@
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.1.0/c424903edc0544b846e7770518da9b93e09bc202/rest-assured-3.1.0-sources.jar!/io/restassured/response/ValidatableResponseOptions.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/57cc0a7af46d66754e632bddc558a913b9e66ac3/httpcore-4.4.6-sources.jar!/org/apache/http/HttpStatus.java" />
     <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/api/model/User.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.11.1/592a48674c926b01a9a747c7831bcd82a9e6d6e4/log4j-core-2.11.1.jar!/Log4j-config.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.1/acf35297ef03716fc14e11e2978d7c749ed3f7e5/log4j-api-2.11.1-sources.jar!/org/apache/logging/log4j/LogManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.11.1/592a48674c926b01a9a747c7831bcd82a9e6d6e4/log4j-core-2.11.1.jar!/Log4j-config.xsd" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.1/acf35297ef03716fc14e11e2978d7c749ed3f7e5/log4j-api-2.11.1-sources.jar!/org/apache/logging/log4j/LogManager.java" />
     <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/api/Logger.java" />
     <entry file="file://$PROJECT_DIR$/api-test/build/reports/tests/test/index.html" />
     <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/api/conditions/Conditions.java" />
-    <entry file="file://$PROJECT_DIR$/api-test/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/api/conditions/Condition.java" />
     <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/api/service/UserService.java" />
     <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/api/AssertableResponse.java" />
@@ -651,28 +734,10 @@
     <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/api/logger/TimingExtension.java" />
     <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/api/conditions/BodyElementCondition.java" />
     <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/api/conditions/StatusCodeCondition.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/4.14.1/862afb3cf8b24ae836f12fce9ccb74707e11736d/selenide-4.14.1-sources.jar!/com/codeborne/selenide/Selenide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="138" column="50" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/4.14.1/862afb3cf8b24ae836f12fce9ccb74707e11736d/selenide-4.14.1-sources.jar!/com/codeborne/selenide/Selenide.java" />
     <entry file="file://$PROJECT_DIR$/ui-test/build/reports/tests/1554721273260.0.png" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.2.2/c12e70e0ddb278a60df1ddca9c5dc6735cc1aa6e/selenide-5.2.2-sources.jar!/com/codeborne/selenide/commands/Val.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.2.2/c12e70e0ddb278a60df1ddca9c5dc6735cc1aa6e/selenide-5.2.2-sources.jar!/com/codeborne/selenide/SelenideElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.2.2/c12e70e0ddb278a60df1ddca9c5dc6735cc1aa6e/selenide-5.2.2-sources.jar!/com/codeborne/selenide/commands/Val.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.2.2/c12e70e0ddb278a60df1ddca9c5dc6735cc1aa6e/selenide-5.2.2-sources.jar!/com/codeborne/selenide/SelenideElement.java" />
     <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -682,63 +747,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/socks/pages/RegistrationModel.java" />
     <entry file="file://$PROJECT_DIR$/ui-test/src/test/java/com/socks/test/UserRegistrationTest.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.2.2/c12e70e0ddb278a60df1ddca9c5dc6735cc1aa6e/selenide-5.2.2-sources.jar!/com/codeborne/selenide/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="125" column="38" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.2.2/c12e70e0ddb278a60df1ddca9c5dc6735cc1aa6e/selenide-5.2.2-sources.jar!/com/codeborne/selenide/Selenide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2143">
-          <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
-          <folding>
-            <element signature="e#6045#6046#0" expanded="true" />
-            <element signature="e#6071#6072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-test/src/test/java/com/api/tests/users/UsersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.2.2/c12e70e0ddb278a60df1ddca9c5dc6735cc1aa6e/selenide-5.2.2-sources.jar!/com/codeborne/selenide/Configuration.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.2.2/c12e70e0ddb278a60df1ddca9c5dc6735cc1aa6e/selenide-5.2.2-sources.jar!/com/codeborne/selenide/Selenide.java" />
     <entry file="file://$PROJECT_DIR$/ui-test/src/test/resources/junit-platform.properties" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-test/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/service/UserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -756,38 +767,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/TwitterLoginPage.java">
+    <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/LoginBlock.java">
+    <entry file="file://$PROJECT_DIR$/api-test/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-test/src/test/java/com/twitter/test/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/api/logger/TestLifecycleLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        <state relative-caret-position="60">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/api/logger/TimingExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="-380">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/TwitterLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.2.2/c12e70e0ddb278a60df1ddca9c5dc6735cc1aa6e/selenide-5.2.2-sources.jar!/com/codeborne/selenide/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/pages/LoginBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-test/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="306">
+          <caret line="74" column="86" selection-start-line="74" selection-start-column="86" selection-end-line="74" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-test/src/test/java/com/twitter/test/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-test/src/main/java/com/twitter/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="83" column="55" lean-forward="true" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenoid/browsers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenoid/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/socks/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-test/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-test/src/test/java/com/api/tests/users/UsersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-386">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-test/src/main/java/com/api/AssertableResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-test/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
         </state>
       </provider>
     </entry>

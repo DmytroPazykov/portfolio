@@ -26,7 +26,7 @@ repositories {
     mavenCentral()
 }
 
-test {
+tasks.withType(Test) {
 
     doLast {
         allureReport
@@ -51,13 +51,14 @@ test {
     systemProperties['junit.jupiter.execution.parallel.config.fixed.parallelism'] = 2
 
     forkEvery = 1
-    
-    test.outputs.upToDateWhen { false}
+
+    test.outputs.upToDateWhen { false }
 }
+
 
 allure {
     autoconfigure = true
-    
+
     version = '2.7.0'
     aspectjweaver = true
     configuration = 'compile'
@@ -66,4 +67,15 @@ allure {
         version = '2.7.0'
     }
 
+}
+
+task chromeHeadless(type: Test) {
+    systemProperties['selenide.browser'] = 'chrome'
+    systemProperties['selenide.headless'] = 'true'
+    systemProperties['selenide.reportsFolder'] = 'build/reports/tests/chrome_headless'
+}
+
+task chrome(type: Test) {
+    systemProperties['selenide.browser'] = 'chrome'
+    systemProperties['selenide.reportsFolder'] = 'build/reports/tests/chrome'
 }
